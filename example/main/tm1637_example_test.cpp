@@ -3,7 +3,7 @@
 #define CLK_PIN GPIO_NUM_17
 #define DIO_PIN GPIO_NUM_16
 
-void app_main(void)
+extern "C" void app_main(void)
 {
     TM1637 tm1637(CLK_PIN, DIO_PIN);
 
